@@ -145,25 +145,25 @@ hr
 @font-face
 {
     font-family: Lulo;
-    src: url(fonts/WOFF/Lulo\ Clean\ One.woff);
+    src: url(fonts/lulo-c1/Lulo-C1.woff);
 }
 
 @font-face
 {
     font-family: Lulo_Bold;
-    src: url(fonts/WOFF/Lulo\ Clean\ One\ Bold.woff);
+    src: url(fonts/lulo-c1/Lulo-C1B.woff);
 }
 
 @font-face
 {
     font-family: Helvetica_Now;
-    src: url(fonts/helvetica_now/hinted-HelveticaNowDisplay-Light.woff2);
+    src: url(fonts/helvetica_now/HelveticaNowDisplay-Light.woff2);
 }
 
 @font-face
 {
     font-family: Helvetica_Now_Bold;
-    src: url(fonts/helvetica_now/hinted-HelveticaNowDisplay-Bold.woff2);
+    src: url(fonts/helvetica_now/HelveticaNowDisplay-Bold.woff2);
 }
 
 * {box-sizing: border-box}
@@ -176,58 +176,52 @@ img {vertical-align: middle;}
     margin-right: auto;
 }
 
-/* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
-/* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 0px;
-  margin-top: -22px;
-  color: #B9A899;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 0px;
+    margin-top: -22px;
+    color: #B9A899;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
-  font-family: 'Courier New', Courier, monospace;
-  color: #B9A899;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: -40px;
-  width: 100%;
-  text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #B9A899;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
-  color: #B9A899;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-  margin-left: -30px;
-  position: absolute;
-  top: 0;
+    color: #B9A899;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: -30px;
+    position: absolute;
+    top: 0;
 }
