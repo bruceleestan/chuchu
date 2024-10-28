@@ -2,6 +2,8 @@ body
 {
     background-color: #151515;
     color: #FFFFFF;
+    z-index: 1;
+    position: relative;
 }
 
 h1
@@ -9,6 +11,9 @@ h1
     text-align: center;
     color: #FFFFFF;
     font-family: Lulo;
+    padding-top: 50px;
+    z-index: 1;
+    position: relative;
 }
 
 h2
@@ -18,12 +23,16 @@ h2
     color: #B9A899;
     font-family: Helvetica_Now;
     margin-top: -20px;
+    z-index: 1;
+    position: relative;
 }
 
 nav
 {
     margin-top: 50px;
     text-align: center;
+    z-index: 1;
+    position: relative;
 }
 
 nav a
@@ -32,6 +41,12 @@ nav a
     text-decoration: none;
     padding: 15px;
     font-family: Helvetica_Now_Bold;
+    z-index: 1;
+}
+
+.selected_works
+{
+    position: relative;
 }
 
 nav a.active
@@ -41,7 +56,40 @@ nav a.active
 
 nav a:hover
 {
-    color: #ffffff;
+    color: #FEFCF1;
+}
+
+hr
+{
+    margin-top: 50px;
+    border: 2.5px solid #675F57;
+    z-index: 1;
+}
+
+.video-container
+{
+    position: sticky;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.video-container video
+{
+    position: static;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    mask-image: linear-gradient(to bottom, rgba(0.0,0.0,0.0,1.0), rgba(1.0,1.0,1.0,0.0));
+}
+
+.second_half_wrapper
+{
+    background-color: #151515;
+    color: #FFFFFF;
+    z-index: 1;
 }
 
 @font-face
