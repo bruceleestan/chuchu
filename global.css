@@ -1,0 +1,63 @@
+body
+{
+    background-color: #151515;
+    color: #FFFFFF;
+}
+
+h1
+{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Lulo;
+}
+
+h2
+{
+    text-align: center;
+    font-size: large;
+    color: #B9A899;
+    font-family: Helvetica_Now;
+    margin-top: -20px;
+}
+
+nav
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+nav a
+{
+    color: #B9A899;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Helvetica_Now_Bold;
+}
+
+nav a.active
+{
+    color: #675F57;
+}
+
+nav a:hover
+{
+    color: #ffffff;
+}
+
+@font-face
+{
+    font-family: Lulo;
+    src: url(fonts/WOFF/Lulo\ Clean\ One\ Bold.woff);
+}
+
+@font-face
+{
+    font-family: Helvetica_Now;
+    src: url(fonts/helvetica_now/hinted-HelveticaNowDisplay-Light.woff2);
+}
+
+@font-face
+{
+    font-family: Helvetica_Now_Bold;
+    src: url(fonts/helvetica_now/hinted-HelveticaNowDisplay-Bold.woff2);
+}
